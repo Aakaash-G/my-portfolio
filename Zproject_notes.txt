@@ -1,0 +1,23 @@
+installations : 
+  - npx create-vite
+  - npm install
+  - npm install tailwindcss @tailwindcss/vite
+
+  - npm install lucide-react
+  - npm install react-router-dom,
+  - npm install tailwind-merge
+  - npm install @radix-ui/react-toast class-variance-authority clsx
+
+_______________________________________________________________________________________________________________________________
+
+css : tailwind
+email : emailjs
+
+plugins: [react(), tailwindcss()]
+resolve : { alias: { '@': '/src',}, }
+
+
+icons : lucide-reaact
+
+reaact-router-dom
+tailwind-merge
